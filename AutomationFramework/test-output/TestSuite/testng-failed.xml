@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="methods">
+  <test thread-count="3" name="UnitTesting(failed)" parallel="methods">
+    <classes>
+      <class name="com.unitTestCases.TC_LaunchGoogleSearch2">
+        <methods>
+          <include name="afterTestMethod"/>
+          <include name="startTest"/>
+          <include name="TestMethodTwo"/>
+          <include name="beforeTestSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeTestMethod"/>
+          <include name="AfterTestSuite"/>
+        </methods>
+      </class> <!-- com.unitTestCases.TC_LaunchGoogleSearch2 -->
+    </classes>
+  </test> <!-- UnitTesting(failed) -->
+  <test thread-count="3" name="IntegrationTesting(failed)" parallel="methods">
+    <classes>
+      <class name="com.unitTestCases.TC_LaunchGoogleSearch2">
+        <methods>
+          <include name="afterTestMethod"/>
+          <include name="startTest"/>
+          <include name="TestMethodTwo"/>
+          <include name="beforeTestSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeTestMethod"/>
+          <include name="AfterTestSuite"/>
+        </methods>
+      </class> <!-- com.unitTestCases.TC_LaunchGoogleSearch2 -->
+    </classes>
+  </test> <!-- IntegrationTesting(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
